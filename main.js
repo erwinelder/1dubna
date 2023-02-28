@@ -70,6 +70,17 @@ id('words-cont-notification').onclick = function() {
 
 
 
+// set up click on words
+for (let word of document.getElementsByClassName('word')) {
+    word.onclick = function() {
+        if (this.classList.contains('word_through'))
+            this.classList.remove('word_through');
+        else this.classList.add('word_through');
+    }
+}
+
+
+
 // set up click on check answers button
 id('check-input').onclick = function() {
 

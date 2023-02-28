@@ -84,7 +84,11 @@ input {
 }
 .word {
     cursor: pointer;
-    transition-duration: .07s;
+    transition-duration: .1s;
+}
+.word_through {
+	text-decoration: line-through;
+	color: #888;
 }
 
 
