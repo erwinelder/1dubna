@@ -111,13 +111,13 @@ input {
     box-sizing: border-box;
     border-radius: 28px;
 }
-.question-true{
+.right-answer {
     background: #38C368;
     color: #171717;
     box-shadow: 0 0 15px #38C368;
     transform: translateY(-4px);
 }
-.question-false{
+.bad-answer {
     background: #D32222;
     box-shadow: 0 0 15px #D32222;
 }
